@@ -1,0 +1,23 @@
+{
+  "name": "devs-around",
+  "version": "1.0.0",
+  "description": "Find devs and tech events nearby",
+  "main": "index.js",
+  "author": "Gabriel Aragão",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-import": "^2.19.1",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.19.1",
+    "sucrase": "^3.11.0"
+  },
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  }
+}
